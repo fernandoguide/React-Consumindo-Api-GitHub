@@ -61,6 +61,7 @@ function App() {
               </a>
             </h1>
             <h3>{userData.location}</h3>
+            <h3 className="pt-3">{userData.bio}</h3>
             <p>
               <a href={userData.blog} target="_new" className="text-info">
                 {userData.blog}
